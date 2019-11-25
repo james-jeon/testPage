@@ -1,0 +1,2438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to Firebase Hosting</title>
+
+        <!-- update the version number as needed -->
+        <script defer src="/__/firebase/6.6.2/firebase-app.js"></script>
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/6.6.2/firebase-auth.js"></script>
+        <script defer src="/__/firebase/6.6.2/firebase-database.js"></script>
+        <script defer src="/__/firebase/6.6.2/firebase-messaging.js"></script>
+        <script defer src="/__/firebase/6.6.2/firebase-storage.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>    
+
+        <!-- css -->
+        <link rel="stylesheet" href="grid.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css"> -->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,700,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="footer.css">
+        
+    </head>
+    <body>
+        <div>
+            <div class="head-main">
+                <div class="container">
+                    <div class="row row-header">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4">
+                            <img class="logo-image sm-hide" src="assets/airfob-logo.png" alt="logo">
+                            <img class="logo2-image d-md-none" src="assets/airfob-logo.png" alt="logo">
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6 sm-hide">
+                            <div class="hd-menu-txt">서비스 소개</div>
+                            <div class="hd-menu-txt">문의하기</div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-md-3 sm-hide ml-auto button-panel">
+                            <button class="hd-bt-login">로그인</button>
+                            <button class="hd-bt-signup">가입하기</button>
+                        </div>
+                        <div class="d-md-none col-md-2 col-sm-4 col-4 ml-auto">
+                            <img class="head-hamburg" src="assets/icon-hamburg.png" alt="hamburg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sections">
+                <div class="hero-main">
+                    <div class="hm-bck">
+                        <img class="hm-bck-main" src="assets/office-rendering-rooms-2019-nov-08-02-38-02-am-000-customized-view-28743323688.png" alt="background">
+                        <div class="hm-bck-contents">
+                            <img class="hm-bck-contents-reader" src="assets/airfob-and-hid-reader.png" alt="reader">
+                            <img class="hm-bck-contents-airfob" src="assets/airfob-device.png" alt="airfob">
+                            <img class="hm-bck-contents-mobile" src="assets/iphone-on-hand.png" alt="bkMobile">
+                        </div>
+                        <img class="hm-bck-marking" src="assets/marking-scrolling.png" alt="marking">
+                    </div>
+                    <div class="hm-contents">
+                        <div class="hm-txt">
+                            <h1 class="hm-txt-main">당신의 RF카드를 모바일 카드로 <span class="style2">에어팝 컨버터</span></h1>
+                            <p class="hm-txt-sub">모바일과 RF카드의 연결성을 돕는 세계 최초의 모바일 to RF카드 컨버터</p>
+                        </div>
+                        <button class="hm-btn">
+                            <p class="hm-btn-txt">곧 공개됩니다</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="new-intro-main">
+                    <div class="container">
+                        <div class="nim-head">
+                            <img class="nim-head-image" src="assets/hp-con-2-head-icon.png" alt="nimHead">
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="nim-txt">
+                                    <p class="nim-txt-main">BLE 통신과 RF 카드 신호를 발생시키는 장치</p>
+                                    <p class="nim-txt-sub">스마트폰과 통신 가능하도록 BLE 통신하여 RF 리더가 읽을 수 있도록 RF 카드 신호 발생</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nim-main">
+                        <img class="nim-main-image" src="assets/hp-intro-background-image.png" alt="introImage">
+                    </div>
+                </div>
+                <div class="harvesting-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-12 hvm-main">
+                                <img class="hvm-main-image" src="assets/harvesting-imagery.png" alt="harvestingImage">
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 ">
+                                <div class="hvm-contents">
+                                    <p class="hvm-contents-txt-main">별도의 베터리가 없어도 동작하는 <span class="style2">에너지 하베스팅</span></p>
+                                    <p class="hvm-contents-txt-sub">별도 공사 없이 설치하여 유지보수 관리 노력을 혁신적으로 해결</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-main">
+                    <div class="background-contents">
+                        <img class="small-dots-image" src="assets/hp-hero-bg-multiple-small-dots.png" alt="small-dots">
+                        <img class="small-dots2-image sm-hide" src="assets/hp-hero-bg-multiple-dots-small-2.png" alt="small-dots2">
+                        <img class="small-dots3-image sm-hide" src="assets/hp-hero-bg-multiple-dots-small.png" alt="small-dots3">
+                        <img class="ring1-image sm-hide" src="assets/hp-hero-bg-linear-ring-1.png" alt="ring1">
+                        <img class="ring2-image sm-hide" src="assets/hp-hero-bg-linear-ring-2.png" alt="ring2">
+                        <img class="wave1-image" src="assets/hp-hero-bg-wave-line-1.png" alt="wave1">
+                        <img class="wave2-image" src="assets/hp-hero-bg-wave-line-2.png" alt="wave2">
+                        <img class="dots-image" src="assets/hp-hero-bg-multiple-dots.png" alt="dots">
+                    </div>
+                    <div class="text-contents">
+                        <h1 class="intro-main-text">최적의 경험을 위한 <span class="intro-main-text2 style-2">모바일 ID 카드 솔루션</span></h1>
+                        <p class="hero-sub-text">물리적인 RF카드의 취약한 보안과 카드 발급 비용을 해결 가능</p>
+                    </div>
+                    <div class="image-contents">
+                        <img class="employee-image" src="assets/hp-hero-employee-id-card.png" alt="employee">
+                        <img class="device-image" src="assets/hp-hero-device-mobile.png" alt="mobile">
+                    </div>
+                </div>
+                <div class="medium-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-5 col-5">
+                                <p class="medium-head-text">보안 강화 및 편리성 증가</p>
+                            </div>
+                            <div class="d-md-none col-sm-7 col-7 medium-head-line"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+                                        <div class="medium-image-panel">
+                                            <img class="medium-image1" src="assets/hp-con-1-icon-1-item.png" alt="hp1">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6 medium-text-panel">
+                                        <p class="medium-content-text">카드에 준하는 높은 편리성</p>
+                                        <p class="medium-sub-text">스마트폰을 카드와 같이 장치에 태깅하는 것만으로 출입 가능</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6 change-order">
+                                        <div class="medium-image-panel">
+                                            <img class="medium-image2" src="assets/hp-con-1-icon-2-item.png" alt="hp2">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6 medium-text-panel center">
+                                        <p class="medium-content-text">카드발급 비용과 운영비 절감</p>
+                                        <p class="medium-sub-text">물리적인 카드 대비 카드 발급과 유지비용을 대폭 절감</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+                                        <div class="medium-image-panel">
+                                            <img class="medium-image3" src="assets/hp-con-1-icon-3-item.png" alt="hp3">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6 medium-text-panel">
+                                        <p class="medium-content-text">카드 분실시에도 안전</p>
+                                        <p class="medium-sub-text">모바일폰 분실시 모바일 ID 카드 권한을 삭제할 수 있음</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 second-head">
+                                <div class="sh-icon">
+                                    <img class="sh-icon-image1" src="assets/hp-con-2-head-icon.png" alt="head2">
+                                </div>
+                                <span class="sh-text style1">모든면에서 뛰어난 <span class="sh-text style2">모바일 ID 카드 솔루션</span></span>
+                            </div>
+                        </div>
+                        <div class="row second-row">
+                            <div class="col-6">
+                                <div class="second-text-contents style1">
+                                    <p class="second-main-text">가장 진보된 모바일 카드</p>
+                                    <p class="second-sub-text">실물카드에 준하는 업계 최고 수준의 인증 속도</p>
+                                    <p class="second-sub-text">다양한 통신방식 및 실행 옵션을 제공하여 누구나 손쉽게 사용</p>
+                                    <div class="second-button-panel">
+                                        <span class="sb-text">자세히 보기</span>
+                                        <img class="sb-image" src="assets/icon-arrow-emerald.png" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img class="second-image1" src="assets/hp-con-2-item-1-image-merge.png" alt="si1">
+                            </div>
+                        </div>
+                        <div class="row second-row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 md-hide">
+                                <img class="second-image2" src="assets/hp-con-2-item-2-image-merge.png" alt="si2">
+                            </div>
+                            <div class="d-sm-none col-6">
+                                <img class="second-image2" src="assets/hp-con-2-item-2-image-merge2.png" alt="si2">
+                            </div>
+                            <div class="col-6">
+                                <div class="second-text-contents style2">
+                                    <p class="second-main-text style2">편리한 모바일 카드 관리 시스템</p>
+                                    <p class="second-sub-text style2">클라우드 기반 모바일 ID 카드 포탈 통해 즉시 비대면 카드 발급하고 발급 즉시 사용자는 모바일 ID 카드를 사용</p>
+                                    <div class="second-button-panel yellow">
+                                        <span class="sb-text yellow">자세히 보기</span>
+                                        <img class="sb-image" src="assets/icon-arrow-yellow.png" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row second-row">
+                            <div class="col-6">
+                                <div class="second-text-contents style3">
+                                    <p class="second-main-text style3">엔드 투 엔드 보안 기술 적용</p>
+                                    <p class="second-sub-text style3">전구간에 걸쳐서 최신 보안 기술 적용 공신된 보안 인증 ISO27001 취득</p>
+                                    <div class="second-button-panel blue">
+                                        <span class="sb-text blue">자세히 보기</span>
+                                        <img class="sb-image" src="assets/icon-arrow-light-blue.png" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <img class="second-image3" src="assets/hp-con-2-item-3-image-merge.png" alt="si3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="third-head-main">호환장치</p>
+                                <p class="third-head-sub">모바일크리덴셜 시스템은 다음 장치를 지원합니다.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="third-content1">
+                                    <img class="third-image1" src="assets/hp-con-cta-comp-devi-suprema-xpass-2.png" alt="xpass2">
+                                    <p class="tc1-main-text">슈프리마</p>
+                                    <p class="tc1-sub-text">XPass 2</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8 col-md-8">
+                                <div class="third-content2">
+                                    <div class="tc2-text-contents">
+                                        <img class="third-image2" src="assets/logo-suprema.png" alt="supremalogo">
+                                        <p class="tc2-main-text">다른 호환 장치들과 함께 사용하세요.</p>
+                                        <div class="tc2-button-panel">
+                                            <p class="tc2-button-text">정보 더 보기</p>
+                                            <img class="tc2-button-image" src="assets/icon-arrow-white.png" alt="arrowWhite">
+                                        </div>
+                                    </div>
+                                    <img class="tc2-image" src="assets/cta-compatible-device-devices-xpass-2.png" alt="deviceXpass">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="fourth-head-main">모카시스템의 핵심 기술을 다른 분야에도 접목</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 fc-contents-panel">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-4 col-5">
+                                        <div class="fc-image-frame1">
+                                            <img class="fc-image" src="assets/hp-con-3-item-1-image.png" alt="fcImage1">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-7">
+                                        <div class="fc-text-frame">
+                                            <p class="fc-content-head">도어락 <span class="fc-content-plus">+</span> 모바일ID</p>
+                                            <p class="fc-content-sub pc1">도어락과 모바일 ID 결합한 서비스를 하기 위해 모카시스템의 무선 및 보안 기술 채용하여 서비스 개발</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 fc-contents-panel">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-4 col-5">
+                                        <div class="fc-image-frame2">
+                                            <img class="fc-image" src="assets/hp-con-3-item-2-image.png" alt="fcImage2">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-7">
+                                        <div class="fc-text-frame">
+                                            <p class="fc-content-head">공유경제 <span class="fc-content-plus">+</span> 모바일ID</p>
+                                            <p class="fc-content-sub pc2">차량, 코인세탁, 그 외 다양한 렌탈 사업을 위해 사용자 관리 및 장비 관리 솔루션을 채택하여 서비스 개발</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 fc-contents-panel">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-4 col-5">
+                                        <div class="fc-image-frame3">
+                                            <img class="fc-image" src="assets/hp-con-3-item-3-image.png" alt="fcImage3">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-7">
+                                        <div class="fc-text-frame">
+                                            <p class="fc-content-head">놀이동산 <span class="fc-content-plus">+</span> 모바일ID</p>
+                                            <p class="fc-content-sub pc3">공연, 영화, 놀이동산, 박물관, 아쿠아 리움, 전시회, 그 외 서비스를 위해 모카시스템을 활용하여 서비스 개발</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fifth-main">
+                    <div class="fm-contents">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-8">
+                                    <div class="fm-text-contents">
+                                        <span class="fm-text-main">모바일 ID 카드<p class="fm-text-airpass">에어패스</p> 자세히 보러가기</span>
+                                        <div class="fm-button-frame">
+                                            <button class="fm-button-panel">
+                                                <p class="fm-button-text">자세히 보기</p>
+                                                <img class="fm-button-arrow lg-hide" src="assets/icon-arrow-emerald.png" alt="arrow">
+                                            </button>
+                                            <button class="fm-button-panel">
+                                                <p class="fm-button-text">문의하기</p>
+                                                <img class="fm-button-arrow lg-hide" src="assets/icon-arrow-emerald.png" alt="arrow">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-4">
+                                    <img class="fm-mobile-image" src="assets/cta-airpass-screen.png" alt="fmImage">
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                                <div class="fc-text-wrapper">
+                                    <span class="fc-main-text">회사소개</span>
+                                    <span class="fc-main-dot">&middot</span>
+                                    <span class="fc-main-text">개인정보보호정책</span>
+                                    <span class="fc-main-dot">&middot</span>
+                                    <span class="fc-main-text">이용약관</span>
+                                    <span class="fc-main-dot">&middot</span>
+                                    <span class="fc-main-text">문의하기</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                                <div class="fc-button-wrapper">
+                                    <button class="fc-button">
+                                        <p class="fc-button-text">가족 사이트</p>
+                                    </button>
+                                    <button class="fc-button">
+                                        <p class="fc-button-text">한국어</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fc-empty-space"></p>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                                <img class="fc-logo" src="assets/foot-logo-b-dark.png" alt="footerLogo">
+                            </div>
+                            <div class="col-xl-7 col-lg-8 col-md-9 col-sm-12 col-12 ml-auto">
+                                <div class="fc-label">
+                                    <p class="fc-label-copyright">COPYRIGHT MOCASYSTEM. ALL RIGHTS RESERVED</p>
+                                    <p class="fc-label-address">15F Parkview Tower, 248, Jeongjail-ro, Bundang-gu, Seonnam-si, Gyeonggi-do, 13554, Rep. of KOREA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+body {
+    margin: 0;
+    font-family: Noto Sans KR;
+}
+.row-header {
+    padding: 20px 0;
+}
+.head-main {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: transparent;
+}
+.intro-main {
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.sections {
+    overflow: hidden;
+}
+.logo-image {
+    padding: 17px 0;
+    box-sizing: content-box;
+}
+.head-space {
+    max-width: 50px;
+    min-width: 30px;
+}
+.head-hamburg {
+    position: absolute;
+    width: 70px;
+    right: 0;
+    padding: 15px;
+}
+.button-panel {
+    white-space: nowrap;
+    padding: 10px 0;
+}
+.hd-menu-txt {
+    display: inline-block;
+    margin-right: 70px;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #222222;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+.hd-bt-signup {
+    padding: 10px 25px;
+    box-sizing: content-box;
+    color: white;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4cc7ad;
+    border: none;
+}
+.hd-bt-login {
+    margin-right: 15px;
+    padding: 10px 25px;
+    box-sizing: content-box;
+    color: #222222;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: solid 2px rgba(153, 153, 153, 0.2);
+}
+.background-contents > img {
+    pointer-events: none;
+    transition: all 0.7s ease-in-out;
+}
+.background-image {
+    width: 100%;
+    height: 100%;
+}
+.text-contents {
+    padding: 416px 20.5% 325px;
+}
+.intro-main-text {
+    font-family: Noto Sans KR;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    word-break: keep-all;
+}
+.intro-main-text2.style-2 {
+    color: #4cc7ad;
+    display: block;
+}
+.hero-sub-text {
+    width: 530px;
+    word-break: keep-all;
+    font-family: Noto Sans KR;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+.image-contents > img {
+    transition: all 0.5s ease-in-out;
+}
+.employee-image {
+    position: absolute;
+    top: -22px;
+    left: 55.5%;
+}
+.device-image {
+    position: absolute;
+    top: 180px;
+    left: 59%;
+}
+.small-dots-image {
+    position: absolute;
+    top: 85px;
+    left: -195px;
+}
+.small-dots2-image {
+    position: absolute;
+    top: 445px;
+    left: 5.5%;
+}
+.ring1-image {
+    position: absolute;
+    top: 265px;
+    left: 13%;
+}
+.small-dots3-image {
+    position: absolute;
+    top: 295px;
+    left: 37%;
+}
+.ring2-image {
+    position: absolute;
+    bottom: -40px;
+    left: 47%;
+}
+.wave1-image {
+    position: absolute;
+    bottom: 145px;
+    right: 25%;
+}
+.dots-image {
+    position: absolute;
+    bottom: -40px;
+    right: 2%;
+}
+.wave2-image {
+    position: absolute;
+    right: -180px;
+    top: 160px;
+}
+.medium-main {
+    background: linear-gradient(342deg, #0bb0ce, #4cc7ad)
+}
+.medium-head-text {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    font-family: Noto Sans KR;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+.medium-image-panel {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+}
+.medium-image1 {
+    padding: 77px 59px 79px 93px;
+}
+.medium-image2 {
+    padding: 72px 73px 73px 72px;
+}
+.medium-image3 {
+    padding: 84px 61px 73px 87px;
+}
+.medium-text-panel {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+.medium-content-text {
+    font-family: Noto Sans KR;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+.medium-sub-text {
+    width: 260px;
+    word-break: keep-all;
+    margin: auto;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+.second-main {
+    padding: 120px 0;
+}
+.second-head {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.second-row {
+    padding-bottom: 50px;
+}
+.sh-icon {
+    padding-bottom: 30px;
+}
+.sh-text {
+    font-family: Noto Sans KR;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+}
+.sh-text.style {
+    color: white;
+}
+.sh-text.style2 {
+    color: #28b597;
+    display: block;
+}
+.second-text-contents {
+    padding-top: 150px;
+}
+.second-text-contents.style1 {
+    padding-left: 75px;
+}
+.second-text-contents.style3 {
+    padding-left: 135px;
+}
+.second-main-text {
+    width: 240px;
+    word-break: keep-all;
+    font-family: Noto Sans KR;
+    font-size: 45px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+.second-sub-text {
+    opacity: 0.75;
+    word-break: keep-all;
+    width: 530px;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(34, 34, 34, 0.75);
+    margin-bottom: 0;
+}
+.second-main-text.style2 {
+
+}
+.second-sub-text.style2 {
+
+}
+.second-main-text.style3 {
+    width: 260px;
+}
+.second-sub-text.style3 {
+    width: 320px;
+}
+.second-button-panel {
+    position: relative;
+    width: 310px;
+    height: 60px;
+    border: solid 2px #4cc7ad;
+    margin-top: 25px;
+}
+.sb-text {
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4cc7ad;
+    margin-left: 20px;
+}
+.second-button-panel.yellow {
+    border: solid 2px #e1bb38;
+}
+.sb-text.yellow {
+    color: #e1bb38;
+}
+.second-button-panel.blue {
+    border: solid 2px #41d0ea;
+}
+.sb-text.blue {
+    color: #41d0ea;
+}
+.sb-image {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.second-image1,
+.second-image3 {
+    position: relative;
+    float: right;
+}
+.third-main {
+    padding: 120px 0;
+    background-color: #fafafa;
+}
+.third-head-main {
+    color: #222222;
+    font-family: Noto Sans KR;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+}
+.third-head-sub {
+    opacity: 0.75;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(34, 34, 34, 0.75);
+}
+.third-content1 {
+    height: 600px;
+    border: solid 1px #eeeeee;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.tc1-main-text {
+    padding-top: 53px;
+    opacity: 0.75;
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(34, 34, 34, 0.75);
+}
+.tc1-sub-text {
+    font-family: Noto Sans KR;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    
+}
+.third-content2 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 600px;
+    border: solid 1px #eeeeee;
+    background-color: #010101;
+}
+.tc2-text-contents {
+    position: relative;
+    z-index: 1;
+    padding: 60px 80px;
+}
+.tc2-main-text {
+    width: 280px;
+    margin-top: 15px;
+    font-family: Noto Sans KR;
+    font-size: 35px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+.tc2-button-panel {
+    position: absolute;
+    width: 310px;
+    border: solid 2px white;
+    margin-bottom: 0;
+    bottom: 60px;
+}
+.tc2-button-text {
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.tc2-button-image {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+.tc2-image {
+    position: absolute;
+    right: 0;
+}
+.fourth-main {
+    padding: 120px 0;
+}
+.fourth-head-main {
+    font-family: Noto Sans KR;
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    width: 700px;
+    word-break: keep-all;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.fc-image-frame1 {
+    padding: 66px 98px;
+    border-radius: 50px;
+    margin: auto;
+    border: solid 1px #e1e1e1;
+}
+.fc-image-frame2 {
+    padding: 66px 63px;
+    border-radius: 50px;
+    margin: auto;
+    border: solid 1px #e1e1e1;
+}
+.fc-image-frame3 {
+    padding: 66px 59px;
+    border-radius: 50px;
+    margin: auto;
+    border: solid 1px #e1e1e1;
+}
+.fc-content-head {
+    font-family: Noto Sans KR;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: center;
+}
+.fc-text-frame {
+    padding: 40px;
+}
+.fc-content-plus {
+    color: #4cc7ad;
+}
+.fc-content-sub {
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+    word-break: keep-all;
+}
+.fc-content-sub.pc1 {
+    padding: 0 13px;
+}
+.fc-content-sub.pc2 {
+    padding: 0 12px;
+}
+.fc-content-sub.pc3 {
+    padding: 0 13px;
+}
+.fifth-main {
+    position: relative;
+    width: 100%;
+    height: 568px;
+    background-image: url("assets/cta-airpass-bg-pattern.png");
+    background-color: #4cc7ad;
+}
+.fm-contents {
+    width: 100%;
+    height: 100%;
+}
+.fm-mobile-image {
+    position: absolute;
+    width: 936px;
+    right: 0;
+    top: -50px;
+    transition: all 0.5s ease-in-out;
+}
+.fm-text-contents {
+    width: 500px;
+    margin-top: 140px;
+    margin: 140px auto 0;
+}
+.fm-text-main {
+    font-family: Noto Sans KR;
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+.fm-text-airpass {
+    font-weight: 900;
+    color: #0a5d4b;
+    margin-bottom: 0;
+}
+.fm-button-frame {
+    display: flex;
+    margin-top: 40px;
+}
+.fm-button-panel {
+    position: relative;
+    width: 240px;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 0;
+    border: none;
+    padding: 0;
+}
+.fm-button-panel + .fm-button-panel {
+    margin-left: 15px;
+}
+.fm-button-text {
+    color: #4cc7ad;
+    font-family: Noto Sans KR;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+.fm-button-arrow {
+    display: none;
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .wave2-image {
+        position: absolute;
+        right: -180px;
+        top: 160px;
+        width: 350px;
+    }
+    .device-image {
+        position: absolute;
+        top: 180px;
+        left: 55%;
+        width: 485px;
+    }
+    .employee-image {
+        position: absolute;
+        top: -22px;
+        left: 53%;
+        width: 350px;
+    }
+    .intro-main-text,
+    .intro-main-text2 {
+        font-size: 50px;
+    }
+    .hero-sub-text {
+        width: 465px;
+        font-size: 20px;
+    }
+    .small-dots2-image {
+        top: 445px;
+        left: 6.5%;
+    }
+    .wave1-image {
+        position: absolute;
+        bottom: 145px;
+        right: 25%;
+        width: 270px;
+    }
+    .ring2-image {
+        position: absolute;
+        bottom: -40px;
+        width: 190px;
+        left: 44%;
+    }
+    .dots-image {
+        position: absolute;
+        bottom: -40px;
+        right: 2%;
+        width: 430px;
+    }
+    .text-contents {
+        padding: 416px 26% 275px;
+    }
+    .medium-image-panel {
+        width: 260px;
+        height: 260px;
+    }
+    .medium-image1 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 67px 49px 69px 83px;
+    }
+    .medium-image2 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 62px 63px 63px 62px; 
+    }
+    .medium-image3 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 74px 51px 63px 77px;
+    }
+    .medium-content-text {
+        font-size: 24px;
+    }
+    .second-text-contents {
+        padding-top: 115px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        width: 470px;
+    }
+    .fourth-head-main {
+        font-size: 55px;
+        width: 625px;
+    }
+    .fc-image-frame1 {
+        width: 330px;
+        padding: 56px 74px;
+    }
+    .fc-image-frame2 {
+        width: 330px;
+        padding: 56px 43px;
+    }
+    .fc-image-frame3 {
+        width: 330px;
+        padding: 56px 39px;
+    }
+    .fc-image {
+        height: 140px;
+    }
+    .fc-text-frame {
+        padding: 40px 25px;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0 8px;
+        font-size: 17px;
+    }
+    .fm-text-contents {
+        width: 460px;
+    }
+    .fm-text-main {
+        font-size: 55px;
+    }
+    .fm-mobile-image {
+        width: 740px;
+    }
+    .fm-button-panel {
+        width: 220px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .text-contents {
+        position: relative;
+        z-index: 1;
+        padding: 335px 23% 365px;
+    }
+    .intro-main-text {
+        font-size: 50px;
+    }
+    .intro-main-text2 {
+        font-size: 50px;
+    }
+    .hero-sub-text {
+        width: 435px;
+        font-size: 18px;
+    }
+    .small-dots-image {
+        width: 400px;
+    }
+    .small-dots2-image {
+        width: 180px;
+        top: 380px;
+        left: 3%;
+    }
+    .small-dots3-image {
+        top: 235px;
+        width: 250px;
+        left: 40%;
+    }
+    .ring1-image {
+        position: absolute;
+        width: 120px;
+        top: 155px;
+        left: 11%;
+    }
+    .ring2-image {
+        position: absolute;
+        bottom: -40px;
+        width: 190px;
+        left: 35%;
+    }
+    .dots-image {
+        position: absolute;
+        bottom: -40px;
+        right: 2%;
+        width: 350px;
+    }
+    .wave1-image {
+        position: absolute;
+        width: 220px;
+        bottom: 65px;
+        right: 20%;
+    }
+    .wave2-image {
+        position: absolute;
+        width: 270px;
+        top: 130px;
+        right: -150px;
+    }
+    .medium-image-panel {
+        width: 260px;
+        height: 260px;
+    }
+    .medium-image1 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 67px 49px 69px 83px;
+    }
+    .medium-image2 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 62px 63px 63px 62px; 
+    }
+    .medium-image3 {
+        width: 50%;
+        box-sizing: content-box;
+        padding: 74px 51px 63px 77px;
+    }
+    .medium-content-text {
+        font-size: 24px;
+    }
+    .sh-icon-image1 {
+        width: 18px;
+    }
+    .sh-text {
+        font-size: 50px;
+    }
+    .second-text-contents {
+        padding-top: 100px;
+    }
+    .second-text-contents.style3 {
+        padding-left: 100px;
+    }
+    .second-main-text {
+        font-size: 35px;
+        width: 190px;
+    }
+    .second-main-text.style3 {
+        font-size: 35px;
+        width: 210px;
+    }
+    .second-sub-text {
+        font-size: 16px;
+    }
+    .second-sub-text.style2 {
+        font-size: 16px;
+        width: 440px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        width: 400px;
+    }
+    .second-button-panel {
+        width: 230px;
+        height: 50px;
+    }
+    .sb-text {
+        font-size: 16px;
+        line-height: 3.1;
+    }
+    .sb-image {
+        width: 10px;
+        top: 15px;
+    }
+    .fourth-main {
+        padding: 100px 0;
+    }
+    .fourth-head-main {
+        font-size: 50px;
+        width: 550px;
+    }
+    .fc-image-frame1 {
+        width: 275px;
+        padding: 50px 56px;
+    }
+    .fc-image-frame2 {
+        width: 275px;
+        padding: 50px 35px;
+    }
+    .fc-image-frame3 {
+        width: 275px;
+        padding: 50px 30px;
+    }
+    .fc-image {
+        height: 120px;
+    }
+    .fc-text-frame {
+        padding: 30px 25px;
+    }
+    .fc-content-head {
+        font-size: 22px;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+    /*fifth contents*/
+    .fifth-main {
+        height: 468px;
+    }
+    .fm-text-contents {
+        width: 420px;
+        margin: 110px auto 0;
+    }
+    .fm-text-main {
+        font-size: 50px;
+    }
+    .fm-mobile-image {
+        width: 550px;
+    }
+    .fm-button-frame {
+        display: flex;
+        margin-top: 30px;
+    }
+    .fm-button-panel {
+        width: 200px;
+        height: 50px;
+    }
+    .fm-button-text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .head-space {
+        max-width: 20px;
+    }
+    .logo-image {
+        width: 150px;
+    }
+    .hd-menu-txt {
+        font-size: 17px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .hd-bt-login {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .hd-bt-signup {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .small-dots-image {
+        width: 370px;
+        left: -175px;
+    }
+    .small-dots2-image {
+        width: 160px;
+        top: 400px;
+        left: 4%;
+    }
+    .small-dots3-image {
+        width: 190px;
+        top: 190px;
+        left: 40%;
+    }
+    .ring1-image {
+        position: absolute;
+        top: 150px;
+        width: 125px;
+        left: 13%;
+    }
+    .ring2-image {
+        position: absolute;
+        bottom: -40px;
+        width: 160px;
+        left: 30%;
+    }
+    .dots-image {
+        position: absolute;
+        bottom: -40px;
+        right: 2%;
+        width: 350px;
+    }
+    .employee-image {
+        position: absolute;
+        left: 53%;
+        top: -10px;
+        width: 275px;
+    }
+    .device-image {
+        width: 425px;
+        left: 47%;
+        top: 155px;
+    }
+    .wave1-image {
+        position: absolute;
+        width: 200px;
+        right: 30%;
+        bottom: 85px;
+    }
+    .wave2-image {
+        position: absolute;
+        width: 270px;
+        top: 130px;
+        right: -150px;
+    }
+    .text-contents {
+        padding: 250px 15% 340px;
+        position: relative;
+        z-index: 1;
+    }
+    .intro-main-text {
+        font-size: 40px;
+    }
+    .intro-main-text2 {
+        font-size: 40px;
+    }
+    .hero-sub-text {
+        width: 320px;
+        font-size: 17px;
+    }
+    .medium-head-text {
+        font-size: 30px;
+        padding-top: 80px;
+    }
+    .medium-image-panel {
+        width: 220px;
+        height: 220px;
+    }
+    .medium-image1 {
+        width: 45%;
+        box-sizing: content-box;
+        padding: 62px 44px 64px 70px;
+    }
+    .medium-image2 {
+        width: 45%;
+        box-sizing: content-box;
+        padding: 57px 58px 58px 57px; 
+    }
+    .medium-image3 {
+        width: 45%;
+        box-sizing: content-box;
+        padding: 69px 46px 68px 72px;
+    }
+    .medium-content-text {
+        font-size: 17px;
+        width: 210px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .medium-sub-text {
+        width: 180px;
+        font-size: 14px;
+    }
+    .sh-icon-image1 {
+        width: 16px;
+    }
+    .sh-text {
+        font-size: 45px;
+    }
+    .second-text-contents {
+        padding-top: 85px;
+    }
+    .second-text-contents.style2 {
+        padding-top: 65px;
+    }
+    .second-text-contents.style3 {
+        padding-left: 100px;
+    }
+    .second-main-text {
+        font-size: 30px;
+        width: 160px;
+        margin-bottom: 15px;
+    }
+    .second-main-text.style3 {
+        font-size: 30px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    .second-sub-text {
+        font-size: 13px;
+    }
+    .second-sub-text.style2 {
+        font-size: 13px;
+        width: 350px;
+    }
+    .second-sub-text.style3 {
+        width: 220px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        width: 320px;
+    }
+    .second-button-panel {
+        width: 200px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    .sb-text {
+        font-size: 14px;
+        line-height: 3.2;
+        margin-left: 15px;
+    }
+    .sb-image {
+        width: 9px;
+        top: 14px;
+        right: 15px;
+    }
+    .fourth-main {
+        padding: 80px 0;
+    }
+    .fourth-head-main {
+        font-size: 45px;
+        width: 500px;
+        padding-bottom: 50px;
+    }
+    .fc-image-frame1 {
+        width: 215px;
+        padding: 40px 43px;
+    }
+    .fc-image-frame2 {
+        width: 215px;
+        padding: 40px 25px;
+    }
+    .fc-image-frame3 {
+        width: 215px;
+        padding: 40px 22px;
+    }
+    .fc-image {
+        height: 95px;
+    }
+    .fc-text-frame {
+        padding: 20px 15px;
+    }
+    .fc-content-head {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0 5px;
+        font-size: 11px;
+    }
+    /*fifth contents*/
+    .fifth-main {
+        height: 388px;
+    }
+    .fm-text-contents {
+        width: 300px;
+        margin: 55px auto 0;
+    }
+    .fm-text-main {
+        font-size: 44px;
+    }
+    .fm-mobile-image {
+        width: 400px;
+    }
+    .fm-button-frame {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .fm-button-panel + .fm-button-panel {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .fm-button-panel {
+        width: 220px;
+        height: 45px;
+    }
+    .fm-button-text {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .fm-button-arrow {
+        position: absolute;
+        display: block;
+        top: 14px;
+        right: 10px;
+        width: 10px;
+    }
+}
+@media (max-width: 767px) and (min-width: 577px) {
+    .sm-hide {
+        display: none;
+    }
+    .employee-image {
+        position: absolute;
+        left: 45%;
+        width: 300px;
+    }
+    .logo2-image {
+        padding: 15px 0;
+        width: 170px;
+    }
+    .device-image {
+        transform: rotate(-12deg);
+        position: absolute;
+        top: 100px;
+        left: 48%;
+    }
+    .dots-image {
+        position: absolute;
+        bottom: -60px;
+        left: 30%;
+        width: 350px;
+    }
+    .small-dots-image {
+        width: 300px;
+        left: -115px;
+    }
+    .text-contents {
+        position: relative;
+        padding: 220px 5% 270px;
+        margin-left: 15px;
+        z-index: 1;
+    }
+    .intro-main-text {
+        width: 320px;
+    }
+    .intro-main-text2 {
+        width: 350px;
+    }
+    .hero-sub-text {
+        width: 330px;
+    }
+    .wave1-image {
+        position: absolute;
+        bottom: 230px;
+        left: -145px;
+    }
+    .wave2-image {
+        position: absolute;
+        top: 160px;
+        right: 25%;
+        width: 220px;
+        z-index: 1;
+    }
+    .medium-image-panel {
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: none;
+        text-align: center;
+    }
+    .medium-head-line {
+        border-bottom: 1px solid white;
+        height: 213px;
+    }
+    .medium-image1 {
+        padding: 0;
+        width: 200px;
+    }
+    .medium-image2 {
+        padding: 0;
+        width: 200px;
+    }
+    .medium-image3 {
+        padding: 0;
+        width: 200px;
+    }
+    .change-order {
+        order: 2;
+    }
+    .medium-head-text {
+        font-size: 42px;
+        text-align: left;
+        word-break: keep-all;
+    }
+    .medium-text-panel {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    .medium-text-panel.center {
+        padding-top: 20px;
+    }
+    .medium-content-text {
+        font-size: 38px;
+        width: 250px;
+        word-break: keep-all;
+        text-align: left;
+    }
+    .medium-sub-text {
+        font-size: 23px;
+        font-weight: 300;
+        text-align: left;
+        width: 280px;
+        margin: 0;
+        word-break: keep-all;
+    }
+    .second-main {
+        padding: 80px 0;
+    }
+    .sh-icon-image1 {
+        width: 16px;
+    }
+    .sh-text {
+        font-size: 45px;
+    }
+    .second-text-contents {
+        padding-top: 20px;
+    }
+    .second-text-contents.style1 {
+        padding-left: 0;
+    }
+    .second-text-contents.style2 {
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+    .second-text-contents.style3 {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .second-main-text {
+        font-size: 30px;
+        width: 160px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .second-main-text.style3 {
+        font-size: 30px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    .second-sub-text {
+        font-size: 13px;
+        width: 175px;
+    }
+    .second-sub-text.style2 {
+        font-size: 13px;
+        width: 200px;
+    }
+    .second-sub-text.style3 {
+        width: 220px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        width: 290px;
+    }
+    .second-button-panel {
+        width: 200px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    .sb-text {
+        font-size: 14px;
+        line-height: 3.2;
+        margin-left: 15px;
+    }
+    .sb-image {
+        width: 9px;
+        top: 14px;
+        right: 15px;
+    }
+    .third-main {
+        padding: 80px 0;
+        background-color: #fafafa;
+    }
+    .third-head-main {
+        font-size: 55px;
+    }
+    .third-head-sub {
+        font-size: 19px;
+    }
+    .third-content1 {
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    .third-image1 {
+        width: 100px;
+    }
+    .tc2-image {
+        
+    }
+    .fourth-main {
+        padding: 80px 0;
+    }
+    .fourth-head-main {
+        font-size: 40px;
+        width: 450px;
+        padding-bottom: 30px;
+    }
+    .fc-contents-panel {
+        border-bottom: solid 1px #dddddd;
+        padding: 20px 15px;
+    }
+    .fc-image-frame1 {
+        padding: 15px 20px;
+        border: none;
+    }
+    .fc-image-frame2 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image-frame3 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image {
+        height: 75px;
+    }
+    .fc-text-frame {
+        padding: 15px 0;
+    }
+    .fc-content-head {
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0;
+        font-size: 15px;
+        text-align: left;
+    }
+    /*fifth contents*/
+    .fifth-main {
+        height: 388px;
+    }
+    .fm-text-contents {
+        width: 300px;
+        margin: 55px auto 0;
+    }
+    .fm-text-main {
+        font-size: 44px;
+    }
+    .fm-mobile-image {
+        width: 400px;
+        right: -130px;
+    }
+    .fm-button-frame {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .fm-button-panel + .fm-button-panel {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .fm-button-panel {
+        width: 220px;
+        height: 45px;
+    }
+    .fm-button-text {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .fm-button-arrow {
+        position: absolute;
+        display: block;
+        top: 14px;
+        right: 10px;
+        width: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .sm-hide {
+        display: none;
+    }
+    .container {
+        width: 92%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo2-image {
+        width: 130px;
+    }
+    .head-hamburg {
+        position: absolute;
+        right: 0;
+        padding-top: 0px;
+        width: 57px;
+    }
+    .text-contents {
+        position: relative;
+        z-index: 1;
+        padding: 182px 30px 265px;
+    }
+    .employee-image {
+        position: absolute;
+        left: 29%;
+        width: 240px;
+        top: -16px;
+        z-index: 0;
+        opacity: .5;
+    }
+    .device-image {
+        transform: rotate(-14deg);
+        position: absolute;
+        top: 90px;
+        left: 27%;
+    }
+    .small-dots-image {
+        width: 155px;
+        top: 70px;
+        left: -65px;
+    }
+    .wave1-image {
+        width: 150px;
+        left: -65px;
+        bottom: 250px;
+    }
+    .wave2-image {
+        position: absolute;
+        top: 115px;
+        right: 30%;
+        width: 170px;
+        z-index: 1;
+    }
+    .intro-main-text {
+        font-size: 40px;
+        width: 215px;
+    }
+    .intro-main-text2 {
+        font-size: 40px;
+        width: 350px;
+    }
+    .hero-sub-text {
+        font-size: 20px;
+        width: 185px;
+        line-height: 1.3;
+    }
+    .dots-image {
+        position: absolute;
+        width: 290px;
+        left: 30px;
+        bottom: -45px;
+        transform: rotate(-75deg);
+    }
+    .medium-head-text {
+        font-size: 30px;
+        text-align: left;
+        word-break: keep-all;
+        padding-top: 40px;
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+    .medium-head-line {
+        border-bottom: 1px solid white;
+        height: 93px;
+    }
+    .medium-image-panel {
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: none;
+        text-align: center;
+    }
+    .medium-image1 {
+        padding: 0;
+        width: 140px;
+    }
+    .medium-image2 {
+        padding: 0;
+        width: 140px;
+    }
+    .medium-image3 {
+        padding: 0;
+        width: 140px;
+    }
+    .change-order {
+        order: 2;
+    }
+    .medium-text-panel {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .medium-text-panel.center {
+        padding-top: 20px;
+    }
+    .medium-content-text {
+        font-size: 26px;
+        width: 190px;
+        word-break: keep-all;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .medium-sub-text {
+        font-size: 18px;
+        font-weight: 300;
+        text-align: left;
+        width: 210px;
+        margin: 0;
+        word-break: keep-all;
+    }
+    .second-main {
+        padding: 80px 0;
+        overflow: hidden;
+    }
+    .second-head {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .sh-icon-image1 {
+        width: 16px;
+    }
+    .sh-text {
+        font-size: 45px;
+    }
+    .second-text-contents {
+        padding-top: 20px;
+    }
+    .second-text-contents.style1 {
+        padding-left: 0;
+    }
+    .second-text-contents.style2 {
+        padding-top: 40px;
+    }
+    .second-text-contents.style3 {
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    .second-main-text {
+        font-size: 30px;
+        width: 160px;
+        margin-bottom: 15px;
+    }
+    .second-main-text.style3 {
+        font-size: 30px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    .second-sub-text {
+        font-size: 13px;
+        width: 170px;
+    }
+    .second-sub-text.style2 {
+        font-size: 13px;
+        width: 180px;
+    }
+    .second-sub-text.style3 {
+        width: 220px;
+    }
+    .second-image1,
+    .second-image3 {
+        right: -60px;
+    }
+    .second-image2 {
+        left: -60px;
+        top: 30px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        position: absolute;
+        width: 270px;
+    }
+    .second-button-panel {
+        width: 200px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    .sb-text {
+        font-size: 14px;
+        line-height: 3.2;
+        margin-left: 15px;
+    }
+    .sb-image {
+        width: 9px;
+        top: 14px;
+        right: 15px;
+    }
+    .third-main {
+        padding: 60px 0;
+    }
+    .third-head-main {
+        font-size: 45px;
+    }
+    .third-head-sub {
+        font-size: 16px;
+    }
+    .third-content1 {
+        height: 540px;
+        margin-bottom: 50px;
+    }
+    .third-image1 {
+        width: 100px;
+    }
+    .tc2-text-contents {
+        padding: 60px;
+    }
+    .tc2-image {
+        width: 485px;
+        bottom: 0;
+    }
+    .fourth-main {
+        padding: 80px 0;
+    }
+    .fourth-head-main {
+        font-size: 35px;
+        width: 395px;
+        padding-bottom: 30px;
+    }
+    .fc-contents-panel {
+        border-bottom: solid 1px #dddddd;
+        padding: 20px 15px;
+    }
+    .fc-image-frame1 {
+        padding: 15px 20px;
+        border: none;
+    }
+    .fc-image-frame2 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image-frame3 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image {
+        height: 65px;
+    }
+    .fc-text-frame {
+        padding: 15px 0;
+    }
+    .fc-content-head {
+        font-size: 22px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0;
+        font-size: 12px;
+        text-align: left;
+    }
+    /*fifth contents*/
+    .fifth-main {
+        height: 388px;
+    }
+    .fm-text-contents {
+        width: 300px;
+        margin: 55px auto 0;
+    }
+    .fm-text-main {
+        font-size: 35px;
+    }
+    .fm-mobile-image {
+        width: 360px;
+        right: -130px;
+        top: -25px;
+    }
+    .fm-button-frame {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .fm-button-panel + .fm-button-panel {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .fm-button-panel {
+        width: 180px;
+        height: 44px;
+    }
+    .fm-button-text {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .fm-button-arrow {
+        position: absolute;
+        display: block;
+        top: 14px;
+        right: 10px;
+        width: 10px;
+    }
+}
+@media (max-width: 460px) {
+    .medium-image-panel {
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: none;
+        text-align: center;
+    }
+    .medium-image1 {
+        padding: 0;
+        width: 100px;
+    }
+    .medium-image2 {
+        padding: 0;
+        width: 100px;
+    }
+    .medium-image3 {
+        padding: 0;
+        width: 100px;
+    }
+    .change-order {
+        order: 2;
+    }
+    .medium-head-text {
+        font-size: 20px;
+        text-align: left;
+        word-break: keep-all;
+        padding-top: 40px;
+        margin-bottom: 0;
+        width: 110px;
+    }
+    .medium-head-line {
+        border-bottom: 1px solid white;
+        height: 75px;
+    }
+    .medium-text-panel {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .medium-text-panel.center {
+        padding-top: 20px;
+    }
+    .medium-content-text {
+        font-size: 18px;
+        width: 100%;
+        word-break: keep-all;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .medium-sub-text {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        word-break: keep-all;
+    }
+    .second-main {
+        padding: 50px 0;
+        overflow: hidden;
+    }
+    .second-head {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .sh-icon {
+        padding-bottom: 20px;
+    }
+    .sh-icon-image1 {
+        width: 16px;
+    }
+    .sh-text {
+        font-size: 30px;
+    }
+    .second-text-contents {
+        padding-top: 20px;
+    }
+    .second-text-contents.style1 {
+        padding-left: 0;
+    }
+    .second-text-contents.style2 {
+        padding-top: 40px;
+    }
+    .second-text-contents.style3 {
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    .second-main-text {
+        font-size: 20px;
+        width: 105px;
+        margin-bottom: 6px;
+    }
+    .second-main-text.style3 {
+        font-size: 23px;
+        width: 150px;
+        margin-bottom: 6px;
+    }
+    .second-sub-text {
+        font-size: 10px;
+        width: 125px;
+    }
+    .second-sub-text.style2 {
+        font-size: 10px;
+        width: 150px;
+    }
+    .second-sub-text.style3 {
+        width: 160px;
+    }
+    .second-image1,
+    .second-image3 {
+        right: -45px;
+    }
+    .second-image2 {
+        left: -45px;
+        top: 30px;
+    }
+    .second-image1,
+    .second-image2,
+    .second-image3 {
+        position: absolute;
+        width: 200px;
+    }
+    .second-button-panel {
+        width: 145px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .sb-text {
+        font-size: 11px;
+        line-height: 3.1;
+        margin-left: 8px;
+    }
+    .sb-image {
+        width: 7px;
+        top: 11px;
+        right: 8px;
+    }
+    .third-main {
+        padding: 50px 0;
+    }
+    .third-head-main {
+        font-size: 40px;
+    }
+    .third-head-sub {
+        font-size: 12px;
+    }
+    .third-content1 {
+        height: 420px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
+    .third-image2 {
+        width: 90px;
+    }
+    .third-content2 {
+        height: 420px;
+    }
+    .tc2-main-text {
+        font-size: 21px;
+        width: 215px;
+        word-break: keep-all;
+        margin-top: 10px;
+    }
+    .third-image1 {
+        width: 70px;
+    }
+    .tc2-text-contents {
+        padding: 30px;
+    }
+    .tc2-image {
+        width: 315px;
+        top: 75px;
+    }
+    .tc2-button-panel {
+        width: 180px;
+        bottom: 30px;
+    }
+    .tc2-button-text {
+        font-size: 16px;
+    }
+    .tc-button-image {
+        position: absolute;
+        top: 17px;
+        right: 15px;
+        width: 10px;
+    }
+    .fourth-main {
+        padding: 6ß0px 0;
+    }
+    .fourth-head-main {
+        font-size: 23px;
+        width: 265px;
+        padding-bottom: 20px;
+    }
+    .fc-contents-panel {
+        border-bottom: solid 1px #dddddd;
+        padding: 15px 10px;
+    }
+    .fc-image-frame1 {
+        padding: 15px 12px;
+        border: none;
+    }
+    .fc-image-frame2 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image-frame3 {
+        padding: 15px 5px;
+        border: none;
+    }
+    .fc-image {
+        height: 55px;
+    }
+    .fc-text-frame {
+        padding: 15px 0;
+    }
+    .fc-content-head {
+        font-size: 17px;
+        margin-bottom: 7px;
+        text-align: left;
+    }
+    .fc-content-sub.pc1,
+    .fc-content-sub.pc2,
+    .fc-content-sub.pc3 {
+        padding: 0;
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    /*fifth contents*/
+    .fifth-main {
+        height: 335px;
+    }
+    .fm-text-contents {
+        width: 100%;
+        margin: 35px auto 0;
+    }
+    .fm-text-main {
+        font-size: 26px;
+    }
+    .fm-mobile-image {
+        width: 300px;
+        right: -110px;
+        top: -12px;
+        transform: rotate(-5deg);
+    }
+    .fm-button-frame {
+        display: flex;
+        margin-top: 15px;
+        flex-direction: column;
+    }
+    .fm-button-panel + .fm-button-panel {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .fm-button-panel {
+        width: 70%;
+        max-width: 145px;
+        height: 36px;
+    }
+    .fm-button-text {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 2.8;
+    }
+    .fm-button-arrow {
+        position: absolute;
+        display: block;
+        top: 12px;
+        right: 10px;
+        width: 8px;
+    }
+}
+@media (max-width: 576px) {
+    .md-hide {
+        display: none;
+    }
+}
+@media (min-width: 993px) {
+    .lg-hide {
+        display: none;
+    }
+}
+</style>

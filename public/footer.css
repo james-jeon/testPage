@@ -1,0 +1,596 @@
+p {
+  margin-bottom: 0; }
+
+.hero-main {
+  position: relative;
+  width: 100%;
+  height: 980px; }
+  .hero-main .hm-bck {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+    .hero-main .hm-bck-main {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+    .hero-main .hm-bck-contents {
+      position: absolute;
+      top: 0;
+      left: 36.5%;
+      width: 1250px;
+      height: 100%;
+      transition: all .6s ease-in-out; }
+      .hero-main .hm-bck-contents-reader {
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        width: 57%; }
+      .hero-main .hm-bck-contents-airfob {
+        position: absolute;
+        top: 6%;
+        left: 39%;
+        width: 42%; }
+      .hero-main .hm-bck-contents-mobile {
+        position: absolute;
+        width: 54%;
+        top: 25%;
+        left: 0; }
+    .hero-main .hm-bck-marking {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 517px;
+      min-width: 273px; }
+  .hero-main .hm-contents {
+    position: relative;
+    top: 275px;
+    max-width: 1250px;
+    margin: auto; }
+    .hero-main .hm-contents .hm-txt {
+      width: 450px; }
+      .hero-main .hm-contents .hm-txt-main {
+        word-break: keep-all;
+        font-size: 60px;
+        font-weight: 100;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222222; }
+        .hero-main .hm-contents .hm-txt-main .style2 {
+          color: #06c9a1; }
+      .hero-main .hm-contents .hm-txt-sub {
+        width: 375px;
+        margin-top: 30px;
+        word-break: keep-all;
+        font-size: 24px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.46;
+        letter-spacing: normal;
+        text-align: left;
+        color: rgba(34, 34, 34, 0.75); }
+    .hero-main .hm-contents .hm-btn {
+      margin-top: 50px;
+      width: 330px;
+      height: 70px;
+      border: 1px solid #aaaaaa;
+      background-color: transparent;
+      opacity: 0.5; }
+      .hero-main .hm-contents .hm-btn-txt {
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.3;
+        letter-spacing: 0.8px;
+        text-align: center;
+        color: #888888; }
+
+.new-intro-main {
+  position: relative;
+  background-color: white;
+  padding-top: 120px;
+  width: 100%;
+  height: 980px; }
+  .new-intro-main .nim-head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; }
+  .new-intro-main .nim-txt-main {
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222; }
+  .new-intro-main .nim-txt-sub {
+    width: 450px;
+    margin: 30px auto 50px;
+    word-break: keep-all;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(34, 34, 34, 0.75); }
+  .new-intro-main .nim-main {
+    text-align: center; }
+
+.harvesting-main {
+  position: relative;
+  width: 100%;
+  background-color: #1a1f22; }
+  .harvesting-main .hvm-main {
+    text-align: center; }
+    .harvesting-main .hvm-main-image {
+      padding: 120px 0; }
+  .harvesting-main .hvm-contents {
+    width: 465px;
+    word-break: keep-all;
+    margin: 380px auto 0; }
+    .harvesting-main .hvm-contents-txt-main {
+      font-size: 60px;
+      font-weight: 100;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.1;
+      letter-spacing: normal;
+      text-align: left;
+      color: white;
+      margin-bottom: 30px; }
+      .harvesting-main .hvm-contents-txt-main .style2 {
+        color: #06c9a1; }
+    .harvesting-main .hvm-contents-txt-sub {
+      font-size: 24px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.46;
+      letter-spacing: normal;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.75); }
+
+.footer-main {
+  position: relative;
+  background-color: #212927;
+  padding: 70px 0 160px; }
+  .footer-main .fc-text-wrapper .fc-main-text {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: white; }
+  .footer-main .fc-text-wrapper .fc-main-dot {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    padding: 0 20px; }
+  .footer-main .fc-button-wrapper .fc-button {
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    float: right;
+    margin-top: 12px; }
+    .footer-main .fc-button-wrapper .fc-button-text {
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      font-family: Noto Sans KR;
+      line-height: 2.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: white;
+      margin-bottom: 0;
+      padding-left: 10px; }
+  .footer-main .fc-button-wrapper .fc-button + .fc-button {
+    margin-right: 20px; }
+  .footer-main .fc-empty-space {
+    margin-top: 70px; }
+  .footer-main .fc-label {
+    padding-top: 4px; }
+    .footer-main .fc-label-copyright {
+      font-size: 30px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: right;
+      color: white; }
+    .footer-main .fc-label-address {
+      font-size: 15px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: 0.6px;
+      text-align: right;
+      color: rgba(255, 255, 255, 0.5); }
+
+@media (max-width: 1440px) {
+  .hero-main .hm-bck-contents {
+    width: 1000px;
+    top: 90px;
+    left: 30%; }
+  .hero-main .hm-contents {
+    max-width: 90%; }
+  .new-intro-main {
+    height: 820px; }
+    .new-intro-main .nim-main {
+      text-align: center; }
+      .new-intro-main .nim-main-image {
+        width: 1050px; }
+  .harvesting-main .hvm-main-image {
+    width: 500px; }
+  .harvesting-main .hvm-contents {
+    width: 410px;
+    margin: 270px auto 0; }
+    .harvesting-main .hvm-contents-txt-main {
+      font-size: 50px; }
+    .harvesting-main .hvm-contents-txt-sub {
+      font-size: 20px; } }
+
+@media (max-width: 1200px) {
+  .new-intro-main {
+    padding-top: 90px;
+    height: 780px; }
+    .new-intro-main .nim-txt-main {
+      font-size: 36px; }
+    .new-intro-main .nim-main-image {
+      width: 860px; }
+  .harvesting-main .hvm-main-image {
+    width: 400px; }
+  .harvesting-main .hvm-contents {
+    width: 310px;
+    margin: 240px 0 0; }
+    .harvesting-main .hvm-contents-txt-main {
+      font-size: 40px;
+      margin-bottom: 20px; }
+    .harvesting-main .hvm-contents-txt-sub {
+      font-size: 15px; }
+  .footer-main .fc-text-wrapper .fc-main-text,
+  .footer-main .fc-text-wrapper .fc-main-dot {
+    font-size: 16px; }
+  .footer-main .fc-button-wrapper .fc-button {
+    width: 150px;
+    margin-top: 5px; }
+    .footer-main .fc-button-wrapper .fc-button-text {
+      font-size: 16px; }
+  .footer-main .fc-logo {
+    height: 50px; }
+  .footer-main .fc-label {
+    padding-top: 0px; }
+    .footer-main .fc-label-copyright {
+      font-size: 25px;
+      line-height: 1.6; }
+    .footer-main .fc-label-address {
+      font-size: 12px; } }
+
+@media (max-width: 992px) {
+  .hero-main .hm-bck-main {
+    width: auto; }
+  .hero-main .hm-bck-contents {
+    width: 800px;
+    top: 250px;
+    left: 18%; }
+    .hero-main .hm-bck-contents-mobile {
+      top: 20%; }
+  .hero-main .hm-contents {
+    top: 150px;
+    max-width: 85%; }
+    .hero-main .hm-contents .hm-txt {
+      width: 400px; }
+      .hero-main .hm-contents .hm-txt-main {
+        font-size: 50px; }
+      .hero-main .hm-contents .hm-txt-sub {
+        font-size: 20px;
+        width: 310px;
+        margin-top: 20px; }
+    .hero-main .hm-contents .hm-btn {
+      margin-top: 30px;
+      width: 300px;
+      height: 60px; }
+      .hero-main .hm-contents .hm-btn-txt {
+        font-size: 18px; }
+  .new-intro-main {
+    padding-top: 60px;
+    height: 700px; }
+    .new-intro-main .nim-head-image {
+      width: 18px; }
+    .new-intro-main .nim-txt-main {
+      font-size: 29px; }
+    .new-intro-main .nim-txt-sub {
+      font-size: 20px;
+      width: 375px;
+      margin: 20px auto 40px; }
+    .new-intro-main .nim-main-image {
+      width: 661px; }
+  .harvesting-main .hvm-main-image {
+    width: 300px; }
+  .harvesting-main .hvm-contents {
+    width: 250px;
+    margin: 210px 0 0; }
+    .harvesting-main .hvm-contents-txt-main {
+      font-size: 30px;
+      margin-bottom: 13px; }
+    .harvesting-main .hvm-contents-txt-sub {
+      font-size: 12px; }
+  .footer-main .fc-text-wrapper .fc-main-text {
+    font-size: 13px; }
+  .footer-main .fc-text-wrapper .fc-main-dot {
+    font-size: 13px;
+    padding: 0 10px; }
+  .footer-main .fc-button-wrapper .fc-button {
+    width: 115px;
+    margin-top: 3px; }
+    .footer-main .fc-button-wrapper .fc-button-text {
+      font-size: 13px; }
+  .footer-main .fc-logo {
+    height: 42px; }
+  .footer-main .fc-label-copyright {
+    font-size: 21px;
+    line-height: 1.7; }
+  .footer-main .fc-label-address {
+    font-size: 10px; } }
+
+@media (max-width: 767px) {
+  .hero-main .hm-bck-contents {
+    width: 600px;
+    top: 300px;
+    left: 2%; }
+    .hero-main .hm-bck-contents-airfob {
+      top: 10%; }
+  .hero-main .hm-contents {
+    top: 150px;
+    max-width: 85%; }
+    .hero-main .hm-contents .hm-txt {
+      width: 350px; }
+      .hero-main .hm-contents .hm-txt-main {
+        font-size: 45px; }
+      .hero-main .hm-contents .hm-txt-sub {
+        width: 270px;
+        font-size: 17px; }
+    .hero-main .hm-contents .hm-btn {
+      width: 220px; }
+      .hero-main .hm-contents .hm-btn-txt {
+        font-size: 18px; }
+  .new-intro-main {
+    padding-top: 45px;
+    height: 600px; }
+    .new-intro-main .nim-head-image {
+      width: 16px; }
+    .new-intro-main .nim-txt-main {
+      font-size: 22px; }
+    .new-intro-main .nim-txt-sub {
+      font-size: 15px;
+      width: 280px;
+      margin: 15px auto 30px; }
+    .new-intro-main .nim-main {
+      position: relative; }
+      .new-intro-main .nim-main-image {
+        position: absolute;
+        width: 120%;
+        left: -10%; }
+  .harvesting-main .hvm-main-image {
+    width: 200px;
+    padding: 80px 0; }
+  .harvesting-main .hvm-contents {
+    width: 170px;
+    margin: 140px 0 0; }
+    .harvesting-main .hvm-contents-txt-main {
+      font-size: 20px;
+      margin-bottom: 13px; }
+    .harvesting-main .hvm-contents-txt-sub {
+      font-size: 11px; }
+  .footer-main {
+    padding: 40px 0 100px; }
+    .footer-main .fc-text-wrapper {
+      width: 395px;
+      margin: auto; }
+      .footer-main .fc-text-wrapper .fc-main-text {
+        font-size: 16px; }
+    .footer-main .fc-button-wrapper {
+      width: 320px;
+      height: 45px;
+      margin: 10px auto 0; }
+      .footer-main .fc-button-wrapper .fc-button {
+        width: 150px; }
+        .footer-main .fc-button-wrapper .fc-button-text {
+          font-size: 16px; }
+    .footer-main .fc-empty-space {
+      margin-top: 40px; }
+    .footer-main .fc-logo {
+      height: 45px;
+      display: block;
+      margin: auto; }
+    .footer-main .fc-label {
+      padding-top: 20px; }
+      .footer-main .fc-label-copyright {
+        text-align: center;
+        font-size: 16px; }
+      .footer-main .fc-label-address {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        line-height: 1.4; } }
+
+@media (max-width: 576px) {
+  .hero-main {
+    height: 800px; }
+    .hero-main .hm-bck-contents {
+      width: 550px;
+      top: 230px; }
+    .hero-main .hm-contents {
+      top: 100px; }
+      .hero-main .hm-contents .hm-txt-main {
+        font-size: 40px; }
+      .hero-main .hm-contents .hm-txt-sub {
+        width: 255px;
+        font-size: 16px; }
+      .hero-main .hm-contents .hm-btn {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px; }
+        .hero-main .hm-contents .hm-btn-txt {
+          font-size: 16px;
+          line-height: 2.2; }
+  .new-intro-main {
+    padding-top: 45px;
+    height: 600px; }
+    .new-intro-main .nim-head-image {
+      width: 16px; }
+    .new-intro-main .nim-txt-main {
+      width: 310px;
+      margin: auto;
+      word-break: keep-all;
+      font-size: 25px; }
+    .new-intro-main .nim-txt-sub {
+      font-size: 15px;
+      width: 280px;
+      margin: 15px auto 30px; }
+    .new-intro-main .nim-main {
+      position: relative; }
+      .new-intro-main .nim-main-image {
+        position: absolute;
+        width: 120%;
+        left: -10%; }
+  .harvesting-main {
+    height: 580px; }
+    .harvesting-main .hvm-main {
+      order: 2; }
+      .harvesting-main .hvm-main-image {
+        width: 100%;
+        max-width: 394px;
+        padding: 0;
+        transform: rotate(-90deg); }
+    .harvesting-main .hvm-contents {
+      width: 400px;
+      margin: 70px auto 30px; }
+      .harvesting-main .hvm-contents-txt-main {
+        font-size: 30px;
+        width: 250px;
+        margin: auto;
+        text-align: center; }
+      .harvesting-main .hvm-contents-txt-sub {
+        font-size: 14px;
+        width: 210px;
+        margin: 15px auto 0;
+        text-align: center; } }
+
+@media (max-width: 460px) {
+  .hero-main {
+    height: 650px; }
+    .hero-main .hm-bck-contents {
+      width: 420px;
+      top: 180px;
+      left: auto; }
+    .hero-main .hm-contents {
+      top: 100px; }
+      .hero-main .hm-contents .hm-txt {
+        width: 200px; }
+        .hero-main .hm-contents .hm-txt-main {
+          font-size: 28px; }
+        .hero-main .hm-contents .hm-txt-sub {
+          width: 190px;
+          font-size: 12px;
+          margin-top: 10px; }
+      .hero-main .hm-contents .hm-btn {
+        width: 150px;
+        height: 40px;
+        margin-top: 12px; }
+        .hero-main .hm-contents .hm-btn-txt {
+          font-size: 16px;
+          line-height: 2.2; }
+  .new-intro-main {
+    padding-top: 40px;
+    height: 130vw;
+    min-height: 480px; }
+    .new-intro-main .nim-head {
+      margin-bottom: 10px; }
+      .new-intro-main .nim-head-image {
+        width: 11px; }
+    .new-intro-main .nim-txt-main {
+      width: 270px;
+      font-size: 23px; }
+    .new-intro-main .nim-txt-sub {
+      font-size: 11px;
+      width: 208px;
+      margin: 12px auto 30px; }
+    .new-intro-main .nim-main {
+      position: relative; }
+      .new-intro-main .nim-main-image {
+        width: 140%;
+        left: -20%; }
+  .harvesting-main {
+    height: 420px; }
+    .harvesting-main .hvm-main {
+      order: 2; }
+      .harvesting-main .hvm-main-image {
+        width: 100%;
+        max-width: 264px;
+        padding: 0;
+        transform: rotate(-90deg); }
+    .harvesting-main .hvm-contents {
+      width: 250px;
+      margin: 50px auto 20px;
+      text-align: center; }
+      .harvesting-main .hvm-contents-txt-main {
+        font-size: 20px;
+        width: 180px;
+        margin: auto; }
+      .harvesting-main .hvm-contents-txt-sub {
+        font-size: 12px;
+        width: 180px;
+        margin: 15px auto 0;
+        text-align: center; }
+  .footer-main {
+    padding: 20px 0 50px; }
+    .footer-main .fc-text-wrapper {
+      width: 270px;
+      margin: auto; }
+      .footer-main .fc-text-wrapper .fc-main-text {
+        font-size: 11px;
+        white-space: nowrap; }
+      .footer-main .fc-text-wrapper .fc-main-dot {
+        font-size: 11px;
+        padding: 0 3px; }
+    .footer-main .fc-button-wrapper {
+      width: 220px;
+      height: 35px;
+      margin: 5px auto 0; }
+      .footer-main .fc-button-wrapper .fc-button {
+        width: 100px; }
+        .footer-main .fc-button-wrapper .fc-button-text {
+          font-size: 11px;
+          padding-left: 0; }
+    .footer-main .fc-empty-space {
+      margin-top: 25px; }
+    .footer-main .fc-logo {
+      height: 35px; }
+    .footer-main .fc-label {
+      padding-top: 15px; }
+      .footer-main .fc-label-copyright {
+        text-align: center;
+        font-size: 11px; }
+      .footer-main .fc-label-address {
+        width: 270px;
+        letter-spacing: 0; } }
